@@ -11,7 +11,7 @@ public class DeckerDemoApplication {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome to Docker Change";
+		return "Welcome to Docker Change to pull";
 	}
 
 	public static void main(String[] args) {
